@@ -52,7 +52,7 @@ client.on("ready", () => {
   console.log(`${client.user.tag}! Aktif!`);
 });
 //BOT ÇALIŞTIRICI______________________________________________________________
-client.login(ayarlar.token)
+client.login(process.env.token)
 
 //////////////////////////////////////////////////////////////////////////////////
 
